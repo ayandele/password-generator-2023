@@ -66,9 +66,9 @@ return userResult.join("");
  //Add event listener to generate button
 //generateBtn.addEventListener("click", writePassword); {
 
-  //return randomPassword;
- 
- }
+//return randomPassword;
+
+}
 
 //
 
@@ -77,10 +77,10 @@ return userResult.join("");
 
 
 // Write password to the #password input
- function writePassword() {
+function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
- passwordText.value = password;
+passwordText.value = password;
 
 }
 
